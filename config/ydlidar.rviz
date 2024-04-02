@@ -111,7 +111,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Best Effort
-        Value: /backleft/point_cloud
+        Value: /RLft/point_cloud
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
@@ -145,7 +145,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Best Effort
-        Value: /backright/point_cloud
+        Value: /RR/point_cloud
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
@@ -179,7 +179,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Best Effort
-        Value: /frontleft/point_cloud
+        Value: /FL/point_cloud
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
@@ -213,7 +213,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Best Effort
-        Value: /frontright/point_cloud
+        Value: /FR/point_cloud
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
