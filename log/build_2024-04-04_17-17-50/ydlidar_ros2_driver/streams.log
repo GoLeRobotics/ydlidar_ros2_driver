@@ -1,0 +1,92 @@
+[0.011s] Invoking command in '/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mjc/nav2_ws/install/nav2_simple_commander:/home/mjc/dev/proj/gole_core_ros/install/wit_ros2_imu:/opt/ros/humble /usr/bin/cmake /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.286s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.559s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.668s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.730s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.738s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.749s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.869s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.875s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.996s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.024s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.073s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.091s] -- Looking for pthread.h
+[1.165s] -- Looking for pthread.h - found
+[1.165s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.239s] -- Found Threads: TRUE  
+[1.385s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.512s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.636s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.680s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.835s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.842s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.842s] -- Configured cppcheck include dirs: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src
+[1.842s] -- Configured cppcheck exclude dirs and/or files: 
+[1.849s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.849s] -- Configured cpplint exclude dirs and/or files: 
+[1.851s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.854s] -- Added test 'lint_cmake' to check CMake code style
+[1.855s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.863s] -- Added test 'uncrustify' to check C / C++ code style
+[1.864s] -- Configured uncrustify additional arguments: 
+[1.866s] -- Added test 'xmllint' to check XML markup files
+[1.869s] -- Configuring done
+[1.882s] -- Generating done
+[1.884s] -- Build files have been written to: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver
+[1.897s] Invoked command in '/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mjc/nav2_ws/install/nav2_simple_commander:/home/mjc/dev/proj/gole_core_ros/install/wit_ros2_imu:/opt/ros/humble /usr/bin/cmake /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver
+[1.900s] Invoking command in '/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mjc/nav2_ws/install/nav2_simple_commander:/home/mjc/dev/proj/gole_core_ros/install/wit_ros2_imu:/opt/ros/humble /usr/bin/cmake --build /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j12 -l12
+[1.975s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[1.975s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[4.595s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[4.595s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.595s]   169 | aser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[4.595s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.595s] 
+[4.595s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.595s]   170 | [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.595s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.595s] 
+[4.595s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:171:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.595s]   171 | [01;35m[Kd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[4.595s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.596s] 
+[4.614s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[4.614s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.614s]   179 | aser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[4.614s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.614s] 
+[4.614s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.614s]   180 | [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.614s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.614s] 
+[4.614s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:181:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.614s]   181 | [01;35m[Kd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[4.615s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.615s] 
+[4.622s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.623s] [01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:200:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+[4.623s]   200 |       scan_msg->header.stamp.nanosec =  [01;31m[Kscan[m[K.stamp - RCL_S_TO_NS(scan_msg->header.stamp.sec);
+[4.623s]       |                                         [01;31m[K^~~~[m[K
+[4.623s]       |                                         [32m[Kscanf[m[K
+[5.888s] gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] 오류 1
+[5.888s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ydlidar_ros2_driver_node.dir/all] 오류 2
+[5.888s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[10.127s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[10.406s] [ 75%] Built target ydlidar_ros2_driver_client
+[10.407s] gmake: *** [Makefile:146: all] 오류 2
+[10.409s] Invoked command in '/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mjc/nav2_ws/install/nav2_simple_commander:/home/mjc/dev/proj/gole_core_ros/install/wit_ros2_imu:/opt/ros/humble /usr/bin/cmake --build /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/build/ydlidar_ros2_driver -- -j12 -l12

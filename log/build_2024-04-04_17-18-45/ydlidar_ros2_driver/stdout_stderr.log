@@ -1,0 +1,70 @@
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client[0m
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[ 75%] Built target ydlidar_ros2_driver_client
+[ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  169 | aser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  170 | [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:171:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  171 | [01;35m[Kd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  179 | aser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  180 | [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:181:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  181 | [01;35m[Kd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[100%] Built target ydlidar_ros2_driver_node
+-- Install configuration: ""
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+-- Set runtime path of "/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+-- Set runtime path of "/home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_test.py
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/pointcloud_data_test.py
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/lidar_nav2_test.py
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/FR.yaml
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/RL.yaml
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/RR.yaml
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/FL.yaml
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+-- Installing: /home/mjc/dev/proj/gole_hector_slam/src/ydlidar_ros2_driver/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml

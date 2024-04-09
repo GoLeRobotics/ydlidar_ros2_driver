@@ -29,7 +29,9 @@ def generate_launch_description():
     share_dir = get_package_share_directory('ydlidar_ros2_driver')
     rviz_config_file = os.path.join(share_dir, 'config','ydlidar.rviz')
     # parameter_file = LaunchConfiguration('params_file')
+
     node_name = 'ydlidar_ros2_driver_node'
+    
 
     # RR_node = LifecycleNode(package='ydlidar_ros2_driver',
     #                             executable='ydlidar_ros2_driver_node',
@@ -77,7 +79,7 @@ def generate_launch_description():
                                             {"resolution_fixed": False, "auto_reconnect": True, "reversion": True, "inverted": True,
                                             "isSingleChannel": False, "intensity": False, "support_motor_dtr": False,
                                             "invalid_range_is_inf": False, "point_cloud_preservative": False},
-                                            {"angle_min": -180.0, "angle_max": 180.0, "range_min": 0.1, "range_max": 15.0, "frequency": 6.0},
+                                            {"range_min": 0.1, "range_max": 15.0, "frequency": 30.0}, #"angle_min": -180.0, "angle_max": 180.0, 
                                         ],
                                 namespace='/FL',
                                 )
@@ -103,21 +105,21 @@ def generate_launch_description():
                     name='static_tf_pub_lidar_FL',
                     arguments=['0.442240850568205', '0.352279461646644', '0.134869277594228','0', '0', '0.3826833568853094', '0.9238795637760319','base_link','lidar_FL'],
                     )
-    tf2_lidar_FR_node = Node(package='tf2_ros',
-                    executable='static_transform_publisher',
-                    name='static_tf_pub_lidar_FR',
-                    arguments=['0.442279461646646', '-0.352240850568205', '0.134869277594215','0', '0', '-0.3826833568853094', '0.9238795637760319','base_link','lidar_FR'],
-                    )
-    tf2_lidar_RL_node = Node(package='tf2_ros',
-                    executable='static_transform_publisher',
-                    name='static_tf_pub_lidar_RL',
-                    arguments=['-0.442279461646646', '0.352240850568202', '0.134869277594224','0', '0', '0.923878673347849', '0.3826855065625277','base_link','lidar_RL'],
-                    )
-    tf2_lidar_RR_node = Node(package='tf2_ros',
-                    executable='static_transform_publisher',
-                    name='static_tf_pub_lidar_RR',
-                    arguments=['-0.442240850568201', '-0.352279461646648', '0.134869277594221','0', '0', '0.923878673347849', '-0.3826855065625277','base_link','lidar_RR'],
-                    )
+    # tf2_lidar_FR_node = Node(package='tf2_ros',
+    #                 executable='static_transform_publisher',
+    #                 name='static_tf_pub_lidar_FR',
+    #                 arguments=['0.442279461646646', '-0.352240850568205', '0.134869277594215','0', '0', '-0.3826833568853094', '0.9238795637760319','base_link','lidar_FR'],
+    #                 )
+    # tf2_lidar_RL_node = Node(package='tf2_ros',
+    #                 executable='static_transform_publisher',
+    #                 name='static_tf_pub_lidar_RL',
+    #                 arguments=['-0.442279461646646', '0.352240850568202', '0.134869277594224','0', '0', '0.923878673347849', '0.3826855065625277','base_link','lidar_RL'],
+    #                 )
+    # tf2_lidar_RR_node = Node(package='tf2_ros',
+    #                 executable='static_transform_publisher',
+    #                 name='static_tf_pub_lidar_RR',
+    #                 arguments=['-0.442240850568201', '-0.352279461646648', '0.134869277594221','0', '0', '0.923878673347849', '-0.3826855065625277','base_link','lidar_RR'],
+    #                 )
     rviz2_node = Node(package='rviz2',
                     executable='rviz2',
                     name='rviz2',
