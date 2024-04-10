@@ -29,13 +29,13 @@ def generate_launch_description():
     share_dir = get_package_share_directory('ydlidar_ros2_driver')
     node_name = 'gole_lidar_node'
 
-    backright_node = LifecycleNode(package='ydlidar_ros2_driver',
+    RR_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='gole_lidar_node',
                                 output='screen',
                                 emulate_tty=True,
                                 parameters=[
-                                            {"port": f"/dev/ttyLIDARBR", "frame_id": f"lidar_RR", "ignore_array": ""},
+                                            {"port": f"/dev/ttyLIDARRR", "frame_id": f"lidar_RR", "ignore_array": ""},
                                             {"baudrate": 512000, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
                                             "intensity_bit": 8},
                                             {"resolution_fixed": False, "auto_reconnect": True, "reversion": True, "inverted": True,
@@ -43,16 +43,16 @@ def generate_launch_description():
                                             "invalid_range_is_inf": False, "point_cloud_preservative": False},
                                             {"angle_min": -126.0, "angle_max": 126.0, "range_min": 0.1, "range_max": 15.0, "frequency": 12.0},
                                         ],
-                                namespace='/backright',
+                                namespace='/RR',
                                 )
     
-    backleft_node = LifecycleNode(package='ydlidar_ros2_driver',
+    RL_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='gole_lidar_node',
                                 output='screen',
                                 emulate_tty=True,
                                 parameters=[
-                                            {"port": f"/dev/ttyLIDARBL", "frame_id": f"lidar_RL", "ignore_array": ""},
+                                            {"port": f"/dev/ttyLIDARRL", "frame_id": f"lidar_RL", "ignore_array": ""},
                                             {"baudrate": 512000, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
                                             "intensity_bit": 8},
                                             {"resolution_fixed": False, "auto_reconnect": True, "reversion": True, "inverted": True,
@@ -60,10 +60,10 @@ def generate_launch_description():
                                             "invalid_range_is_inf": False, "point_cloud_preservative": False},
                                             {"angle_min": -126.0, "angle_max": 126.0, "range_min": 0.1, "range_max": 15.0, "frequency": 12.0},
                                         ],
-                                namespace='/backleft',
+                                namespace='/RL',
                                 )
     
-    frontleft_node = LifecycleNode(package='ydlidar_ros2_driver',
+    FL_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='gole_lidar_node',
                                 output='screen',
@@ -77,10 +77,10 @@ def generate_launch_description():
                                             "invalid_range_is_inf": False, "point_cloud_preservative": False},
                                             {"angle_min": -126.0, "angle_max": 126.0, "range_min": 0.1, "range_max": 15.0, "frequency": 12.0},
                                         ],
-                                namespace='/frontleft',
+                                namespace='/FL',
                                 )
     
-    frontright_node = LifecycleNode(package='ydlidar_ros2_driver',
+    FR_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='gole_lidar_node',
                                 output='screen',
@@ -94,12 +94,12 @@ def generate_launch_description():
                                             "invalid_range_is_inf": False, "point_cloud_preservative": False},
                                             {"angle_min": -126.0, "angle_max": 126.0, "range_min": 0.1, "range_max": 15.0, "frequency": 12.0},
                                         ],
-                                namespace='/frontright',
+                                namespace='/FR',
                                 )
     
     return LaunchDescription([
-        frontright_node,
-        frontleft_node,
-        backright_node,
-        backleft_node,
+        FL_node,
+        FR_node,
+        RL_node,
+        RR_node,
     ])
