@@ -21,7 +21,6 @@ from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
 from launch.actions import LogInfo
 
-import lifecycle_msgs.msg
 import os
 
 
@@ -36,7 +35,7 @@ def generate_launch_description():
                                 emulate_tty=True,
                                 parameters=[
                                             {"port": f"/dev/ttyLIDARRR", "frame_id": f"lidar_RR", "ignore_array": ""},
-                                            {"baudrate": 512000, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
+                                            {"baudrate": 230400, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
                                             "intensity_bit": 8},
                                             {"resolution_fixed": False, "auto_reconnect": True, "reversion": True, "inverted": True,
                                             "isSingleChannel": False, "intensity": False, "support_motor_dtr": False,
@@ -45,7 +44,7 @@ def generate_launch_description():
                                         ],
                                 namespace='/RR',
                                 )
-    
+
     RL_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='gole_lidar_node',
@@ -53,7 +52,7 @@ def generate_launch_description():
                                 emulate_tty=True,
                                 parameters=[
                                             {"port": f"/dev/ttyLIDARRL", "frame_id": f"lidar_RL", "ignore_array": ""},
-                                            {"baudrate": 512000, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
+                                            {"baudrate": 230400, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
                                             "intensity_bit": 8},
                                             {"resolution_fixed": False, "auto_reconnect": True, "reversion": True, "inverted": True,
                                             "isSingleChannel": False, "intensity": False, "support_motor_dtr": False,
@@ -62,7 +61,7 @@ def generate_launch_description():
                                         ],
                                 namespace='/RL',
                                 )
-    
+
     FL_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='gole_lidar_node',
@@ -70,7 +69,7 @@ def generate_launch_description():
                                 emulate_tty=True,
                                 parameters=[
                                             {"port": f"/dev/ttyLIDARFL", "frame_id": f"lidar_FL", "ignore_array": ""},
-                                            {"baudrate": 512000, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
+                                            {"baudrate": 230400, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
                                             "intensity_bit": 8},
                                             {"resolution_fixed": False, "auto_reconnect": True, "reversion": True, "inverted": True,
                                             "isSingleChannel": False, "intensity": False, "support_motor_dtr": False,
@@ -79,7 +78,7 @@ def generate_launch_description():
                                         ],
                                 namespace='/FL',
                                 )
-    
+
     FR_node = LifecycleNode(package='ydlidar_ros2_driver',
                                 executable='ydlidar_ros2_driver_node',
                                 name='gole_lidar_node',
@@ -87,7 +86,7 @@ def generate_launch_description():
                                 emulate_tty=True,
                                 parameters=[
                                             {"port": f"/dev/ttyLIDARFR", "frame_id": f"lidar_FR", "ignore_array": ""},
-                                            {"baudrate": 512000, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
+                                            {"baudrate": 230400, "lidar_type": 1, "device_type": 0, "sample_rate": 6, "abnormal_check_count": 4,
                                             "intensity_bit": 8},
                                             {"resolution_fixed": False, "auto_reconnect": True, "reversion": True, "inverted": True,
                                             "isSingleChannel": False, "intensity": False, "support_motor_dtr": False,
@@ -96,7 +95,7 @@ def generate_launch_description():
                                         ],
                                 namespace='/FR',
                                 )
-    
+
     return LaunchDescription([
         FL_node,
         FR_node,
